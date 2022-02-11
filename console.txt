@@ -1,0 +1,34 @@
+$ git clone maryrose-hw js-homework
+Cloning into 'js-homework'...
+done.
+
+$ cd js-homework
+
+$ git branch comments
+
+$ git checkout comments
+Switched to branch 'comments'
+
+$ git add homework.js
+
+$ git commit -m"comments added"
+On branch comments
+nothing to commit, working directory clean
+
+$ git add homework.js
+
+$ git commit -m"comments added"
+[comments dc4d791] comments added
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+$ git push origin comments
+Counting objects: 3, done.
+Delta compression using up to 16 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 297 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+To /home/ccuser/workspace/js-homework/maryrose-hw
+ * [new branch]      comments -> comments
+
+$ cd ../maryrose-hw
+$ 
